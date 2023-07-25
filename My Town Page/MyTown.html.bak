@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Insert web page title here</title>
+    <title>My Town Webpage</title>
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,26 +12,26 @@
     <div id="tswcontainer">
       <div id="tswheader">
         <!-- start of header section: insert your logo, etc, here -->
-        <h1 style="background-color: #238d00; color: white; font-size: xx-large;">
+        <h1 style="background-color: #238d00; color: white; font-size: xx-large;inline-size: 8%;">
           My Town </h1>
-        <p>&nbsp;</p>
+        <p>&nbsp;<img src="../images/download.png" alt="San Jose Logo" title="San Jose Logo"></p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
       <div id="tswcontent">
         <div id="tswcontproper" style="font-size: x-large;">
           <!-- start of content column: insert your content here -->
-          <h1>Welcome</h1>
-          <h2 style="background-color: #238d00; color: white; font-size: xx-large;">
+          <h1 style ="border-style:solid; border-color:#238d00; margin-right: 85%;">Welcome</h1>
+          <h2 style="background-color: #238d00; color: white; font-size: xx-large;inline-size: 25%;">
             My hometown is San Jose, California. </h2>
-          <p style="background-color: #238d00; color: white;"> The city I was
-            born and raised in, San Jose, is a pretty big city with a population
-            of almost 1 million people. The weather is usually somewhat mild
-            (usually around 70ish degrees) but it can get really hot in the
-            summer. It hardly rains in San Jose causing the climate to be
-            somewhat arid in the mountains around the city. San Jose itself is
-            located in a valley and its area size is 181.4 mi². Some things to
-            do are visit the local sports stadiums to watch football and soccer
-            games, visit the science and art museums, and go hiking in the
-            nearby mountains.</p>
+          <p style="background-color: #238d00; color: white;inline-size: 75%;">
+            The city I was born and raised in, San Jose, is a pretty big city
+            with a population of almost 1 million people. The weather is usually
+            somewhat mild (usually around 70ish degrees) but it can get really
+            hot in the summer. It hardly rains in San Jose causing the climate
+            to be somewhat arid in the mountains around the city. San Jose
+            itself is located in a valley and its area size is 181.4 mi². Some
+            things to do are visit the local sports stadiums to watch football
+            and soccer games, visit the science and art museums, and go hiking
+            in the nearby mountains.</p>
           <p>&nbsp;</p>
           <!-- end of content column: put your content above this line --> </div>
       </div>
@@ -44,11 +44,12 @@
         </div>
       </div>
       <div style="clear: both;"></div>
-      <div id="tswfooter" style="background-color: #238d00; color: white;">
+      <div id="tswfooter" style="background-color: #238d00; color: white;inline-size: 10%;">
         <!-- start of footer section: insert your copyright notice, etc, here -->
         <p> Page made on 7/25/2023. </p>
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
+    
   </body>
 </html>
