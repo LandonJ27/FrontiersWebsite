@@ -15,7 +15,8 @@
         <h1 style="background-color: #2448b7; color: white;inline-size: 30%; text-align:center;   margin-right: 400px;
   margin-left: 340px;"> Landon's WPI Frontiers Program Website </h1>
       </div>
-      <p style="margin-right:-400px; margin-left:340px;">&nbsp;<img src="./images/images.png"
+      <p style="margin-right:-400px; margin-left:340px;">&nbsp;<img src="./images/images.png"
+
           alt="Landon's Website Image" title="image1"></p>
       <!-- end of header section: insert your logo, etc, above this line --> </div>
     <div id="tswcontent">
@@ -25,9 +26,9 @@
           Page</h2>
         <p style="color: white; background-color: #2448b7; font-size: x-large;inline-size: 50%;">
           This is my website for the computer science class at the WPI Frontiers
-          program. Here you can find what the program is about, my interests,
-          and my hometown. You can also find on this page a navigation bar to go
-          to the other pages and see the other forms of html and css that I have
+          program. Here you can find what this page is about, my interests, and
+          my hometown. You can also find on this page a navigation bar to go to
+          the other pages and see the other forms of html and css that I have
           used to make the pages.</p>
         <p>&nbsp;</p>
         <!-- end of content column: put your content above this line --> </div>
@@ -38,7 +39,10 @@
         <p style="color: black; background-color: white;"> Navigation Bar </p>
         <p> <a href="My%20Interests%20Page/InterestsPage.html">My Interests</a>
         </p>
-        <p> <a href="My%20Town%20Page/MyTown.html">My Town</a> </p>
+        <p> <a href="My%20Town%20Page/MyTown.html">My Town</a></p>
+        <p><a href="../numgame/Numgame%20V3/numgameV3.html">Number
+            Game<br>
+          </a> </p>
         <!-- end of side column: put your navigation menu, etc, above this line -->
       </div>
     </div>
