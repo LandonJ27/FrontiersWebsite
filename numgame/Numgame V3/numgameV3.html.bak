@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NumGame</title>
     <link rel="stylesheet" href="numgameV3.css">
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   </head>
   <body onload="loadGame()">
     <h1>Number Guessing Game</h1>
@@ -14,8 +13,6 @@
     <label>Guess: </label> <input id="guess" min="0" type="number"> <button onclick="makeGuess()">GUESS!</button>
     <br>
     <p id="report">Start of report</p>
-    <p><a href="../../Insert%20web%20page%20title%20here.html" style="color: white;">Return
-        to home</a></p>
     <script src="numgameV3.js"></script>
   </body>
 </html>
