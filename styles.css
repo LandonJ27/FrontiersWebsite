@@ -84,7 +84,13 @@ div {
   font-size: 20px; /* Increase font size */
   color: blue; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-}
+  border: 1px solid #555;
+  text-align: center;
+  border-bottom: 1px solid #555;
+  border-bottom: 5px;
+  background-color:rgb(110, 223, 110);
+  }
+
 
 #mySidenav a:hover {
   left: 0; /* On mouse-over, make the elements appear as they should */
