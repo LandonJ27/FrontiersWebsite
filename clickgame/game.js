@@ -70,5 +70,5 @@ function showPoint(widget) {
     }
 
     widget.appendChild(number);
-
 }
+
