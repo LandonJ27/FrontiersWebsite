@@ -1,17 +1,39 @@
 body {
     text-align: center;
+    background-color:seagreen;
+    background-image: url("pong\ background3.jpg");
+    background-size: cover;
 }
+
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
+    color: white;
+    text-shadow:5px 5px black;
+    border-style:solid;
+    border-color: white;
+    margin-right: 500px;
+    margin-left: 500px;
 }
 
 #scoreboard {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
+    text-shadow:2px 2px white;
+    border-style: solid;
+    border-radius: 5px;
+    border-left-color: red;
+    border-right-color: blue;
+    border-top-color: blue;
+    border-bottom-color: red;
+    margin-right: 700px;
+    margin-left: 700px;
 }
 
+label{
+    color:white;
+}
 #reset {
     cursor: pointer;
     border-radius: 15px;
