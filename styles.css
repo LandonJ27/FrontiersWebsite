@@ -6,7 +6,6 @@ img {
   max-width: 100%;
   width: auto;
   height: auto;
-  -webkit-box-reflect: right  40px linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
 
 
@@ -70,12 +69,15 @@ div#tswfooter {
 
 p {
   background-color: white;
+  text-shadow:black;
 }
 
 div {
   background-color: white !important;
 }
-
+h1{
+  text-shadow:black;
+}
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
   left: 50px; /* Position them outside of the screen */
