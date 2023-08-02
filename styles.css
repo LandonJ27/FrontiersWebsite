@@ -6,7 +6,9 @@ img {
   max-width: 100%;
   width: auto;
   height: auto;
+  -webkit-box-reflect: right  40px linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
+
 
 input, select, button, textarea {
   max-width: 100%;

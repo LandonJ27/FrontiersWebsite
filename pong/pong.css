@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    background-color:seagreen;
     background-image: url("pong\ background3.jpg");
     background-size: cover;
 }
@@ -20,6 +19,7 @@ h1 {
 #scoreboard {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
+    color: black;
     text-shadow:2px 2px white;
     border-style: solid;
     border-radius: 5px;
