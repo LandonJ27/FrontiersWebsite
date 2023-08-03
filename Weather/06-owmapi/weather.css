@@ -1,10 +1,29 @@
 body {
-    background-color: #1f001f;
+    background-color: #68b888;
 }
+
 
 h2, p {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:2px 2px rgb(90, 121, 105);
+}
+
+h2 {
+    background-color: #234f35;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: black; 
+    margin-right: 85%;
+}
+
+a{
+    text-shadow: 0px 0px#234f35;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
 #dev-controls {
@@ -17,6 +36,7 @@ h2, p {
 .controls {
     display: flex;
     padding: 5px;
+    font-family:"Lucida Console", "Courier New", monospace;
 }
 
 #forecast-table {

@@ -40,6 +40,21 @@ function displayWeather() {
     const condIdURL = "https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2";
     let condId = owmWeather.json.weather[0].id;
     let condIdReport = `The condition ID is ${condId} which can <a href=${condIdURL} target="_blank">help sort by possible conditions</a>.`;
+    let planeReport;
+    let planeimg;
+    if (condId >= 200 && condId < 300) {
+        planeReport = `The conditions are not safe for a plane to take off.`;
+        planeimg = `<img src="planebad.png">`;
+    } else if ((condId >= 502 & condId <= 511)|| condId == 522) {
+        planeReport = `The conditions are not safe for a plane to take off.`;
+        planeimg = `<img src="planebad.png">`;
+    }  else if (condId == 602 || condId == 622 || condId == 781) {
+        planeReport = `The conditions are not safe for a plane to take off.`;
+        planeimg = `<img src="planebad.png">`;
+    } else {
+        planeReport = `The conditions are safe for a plane to take off.`;
+        planeimg = `<img src="planegood.png">`;
+    }
 
     // Temperature and Feels-Like
     let temp = owmWeather.json.main.temp;
@@ -51,7 +66,7 @@ function displayWeather() {
     // See https://openweathermap.org/weather-conditions
     let img = `<img src="https://openweathermap.org/img/wn/${owmWeather.json.weather[0].icon}@4x.png">`;
 
-    weatherReport.innerHTML = `${condReport}<br>${condIdReport}<br>${tempReport}<br>${img}`;
+    weatherReport.innerHTML = `${condReport}<br>${condIdReport}<br>${planeReport}<br>${tempReport}<br>${img}${planeimg}`;
 }
 
 ///////////////////////////////////////////////////////////////
